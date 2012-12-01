@@ -18,6 +18,8 @@
 		709EC23C166ABFDE0047259E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 709EC23B166ABFDE0047259E /* Default-568h@2x.png */; };
 		709EC23F166ABFDE0047259E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 709EC23D166ABFDE0047259E /* MainStoryboard.storyboard */; };
 		709EC242166ABFDE0047259E /* WAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 709EC241166ABFDE0047259E /* WAViewController.m */; };
+		709EC249166AC8CD0047259E /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 709EC248166AC8CD0047259E /* Icon.png */; };
+		709EC24B166AC8D70047259E /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 709EC24A166AC8D70047259E /* Icon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		709EC23E166ABFDE0047259E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		709EC240166ABFDE0047259E /* WAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAViewController.h; sourceTree = "<group>"; };
 		709EC241166ABFDE0047259E /* WAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAViewController.m; sourceTree = "<group>"; };
+		709EC248166AC8CD0047259E /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../Icon.png; sourceTree = "<group>"; };
+		709EC24A166AC8D70047259E /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../Icon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,11 +87,10 @@
 		709EC22B166ABFDE0047259E /* WaterAid */ = {
 			isa = PBXGroup;
 			children = (
+				709EC24D166AC98A0047259E /* View Controllers */,
 				709EC234166ABFDE0047259E /* WAAppDelegate.h */,
 				709EC235166ABFDE0047259E /* WAAppDelegate.m */,
 				709EC23D166ABFDE0047259E /* MainStoryboard.storyboard */,
-				709EC240166ABFDE0047259E /* WAViewController.h */,
-				709EC241166ABFDE0047259E /* WAViewController.m */,
 				709EC22C166ABFDE0047259E /* Supporting Files */,
 			);
 			path = WaterAid;
@@ -96,6 +99,7 @@
 		709EC22C166ABFDE0047259E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				709EC24C166AC97B0047259E /* Icons */,
 				709EC22D166ABFDE0047259E /* WaterAid-Info.plist */,
 				709EC22E166ABFDE0047259E /* InfoPlist.strings */,
 				709EC231166ABFDE0047259E /* main.m */,
@@ -105,6 +109,32 @@
 				709EC23B166ABFDE0047259E /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		709EC24C166AC97B0047259E /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				709EC24A166AC8D70047259E /* Icon@2x.png */,
+				709EC248166AC8CD0047259E /* Icon.png */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
+		709EC24D166AC98A0047259E /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				709EC24E166AC9A20047259E /* Main */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		709EC24E166AC9A20047259E /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				709EC240166ABFDE0047259E /* WAViewController.h */,
+				709EC241166ABFDE0047259E /* WAViewController.m */,
+			);
+			name = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +194,8 @@
 				709EC23A166ABFDE0047259E /* Default@2x.png in Resources */,
 				709EC23C166ABFDE0047259E /* Default-568h@2x.png in Resources */,
 				709EC23F166ABFDE0047259E /* MainStoryboard.storyboard in Resources */,
+				709EC249166AC8CD0047259E /* Icon.png in Resources */,
+				709EC24B166AC8D70047259E /* Icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
