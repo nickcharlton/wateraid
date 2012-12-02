@@ -155,11 +155,6 @@
 		709EC24D166AC98A0047259E /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				709EC25A166AF3690047259E /* WAFeatureSlider */,
-				709EC25E166AF8180047259E /* WARegionGrid */,
-				709EC267166B0A920047259E /* WAGlobalNews */,
-				70AF35FC166B19140050A48E /* WASupportAndInvolvement */,
-				70AF3609166B23020050A48E /* WAFooter */,
 				709EC24E166AC9A20047259E /* Main */,
 			);
 			name = "View Controllers";
@@ -170,6 +165,11 @@
 			children = (
 				709EC240166ABFDE0047259E /* WAViewController.h */,
 				709EC241166ABFDE0047259E /* WAViewController.m */,
+				709EC25A166AF3690047259E /* WAFeatureSlider */,
+				709EC25E166AF8180047259E /* WARegionGrid */,
+				709EC267166B0A920047259E /* WAGlobalNews */,
+				70AF35FC166B19140050A48E /* WASupportAndInvolvement */,
+				70AF3609166B23020050A48E /* WAFooter */,
 			);
 			name = Main;
 			sourceTree = "<group>";

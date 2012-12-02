@@ -329,42 +329,6 @@
         <image name="region_grid.png" width="320" height="230"/>
         <image name="support_getinvolved.png" width="320" height="400"/>
     </resources>
-    <classes>
-        <class className="NSLayoutConstraint" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
-        </class>
-        <class className="WAFeatureSliderController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/WAFeatureSliderController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="featureTitle" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="WAGlobalNewsController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/WAGlobalNewsController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="titleLabel" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="WARegionGridController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/WARegionGridController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="africaLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="asiaLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="centralAmericaLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="westPacificLabel" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="WASupportAndInvolvement" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/WASupportAndInvolvement.h"/>
-            <relationships>
-                <relationship kind="outlet" name="getInvolvedLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="supportLabel" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="WAViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/WAViewController.h"/>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
