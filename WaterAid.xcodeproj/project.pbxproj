@@ -24,6 +24,8 @@
 		709EC255166AE32F0047259E /* MetaOffc-Norm.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 709EC254166AE0AE0047259E /* MetaOffc-Norm.ttf */; };
 		709EC25D166AF52E0047259E /* WAFeatureSliderController.m in Sources */ = {isa = PBXBuildFile; fileRef = 709EC25C166AF52E0047259E /* WAFeatureSliderController.m */; };
 		709EC261166AF85B0047259E /* WARegionGridController.m in Sources */ = {isa = PBXBuildFile; fileRef = 709EC260166AF85B0047259E /* WARegionGridController.m */; };
+		709EC265166B08E10047259E /* region_grid.png in Resources */ = {isa = PBXBuildFile; fileRef = 709EC263166B08E10047259E /* region_grid.png */; };
+		709EC266166B08E10047259E /* region_grid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 709EC264166B08E10047259E /* region_grid@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +53,8 @@
 		709EC25C166AF52E0047259E /* WAFeatureSliderController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WAFeatureSliderController.m; sourceTree = "<group>"; };
 		709EC25F166AF85B0047259E /* WARegionGridController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WARegionGridController.h; sourceTree = "<group>"; };
 		709EC260166AF85B0047259E /* WARegionGridController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WARegionGridController.m; sourceTree = "<group>"; };
+		709EC263166B08E10047259E /* region_grid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = region_grid.png; sourceTree = "<group>"; };
+		709EC264166B08E10047259E /* region_grid@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "region_grid@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +158,7 @@
 			isa = PBXGroup;
 			children = (
 				709EC24C166AC97B0047259E /* Icons */,
+				709EC262166B08B90047259E /* UI */,
 				709EC252166ADCFF0047259E /* Feature Images */,
 			);
 			name = Images;
@@ -191,6 +196,15 @@
 				709EC260166AF85B0047259E /* WARegionGridController.m */,
 			);
 			name = WARegionGrid;
+			sourceTree = "<group>";
+		};
+		709EC262166B08B90047259E /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				709EC263166B08E10047259E /* region_grid.png */,
+				709EC264166B08E10047259E /* region_grid@2x.png */,
+			);
+			name = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,6 +268,8 @@
 				709EC24B166AC8D70047259E /* Icon@2x.png in Resources */,
 				709EC250166ADCEF0047259E /* nepal_feature_image.jpg in Resources */,
 				709EC255166AE32F0047259E /* MetaOffc-Norm.ttf in Resources */,
+				709EC265166B08E10047259E /* region_grid.png in Resources */,
+				709EC266166B08E10047259E /* region_grid@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

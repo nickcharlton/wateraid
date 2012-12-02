@@ -130,6 +130,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="230"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="region_grid.png" translatesAutoresizingMaskIntoConstraints="NO" id="WkP-LD-xO3"/>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Central America" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NIi-u7-grB">
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -154,13 +155,15 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="V7M-Tb-49t" firstAttribute="leading" secondItem="NIi-u7-grB" secondAttribute="leading" type="default" id="BZC-RZ-ILC"/>
-                            <constraint firstAttribute="bottom" secondItem="ugH-Gs-MS5" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="G9L-ad-F5R"/>
                             <constraint firstItem="NIi-u7-grB" firstAttribute="leading" secondItem="LFV-ec-jms" secondAttribute="leading" constant="11" id="IJR-cQ-a3z"/>
-                            <constraint firstAttribute="trailing" secondItem="ugH-Gs-MS5" secondAttribute="trailing" constant="34" id="R7b-9Z-yjU"/>
-                            <constraint firstAttribute="bottom" secondItem="V7M-Tb-49t" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="Zbn-Yp-kxy"/>
-                            <constraint firstItem="NIi-u7-grB" firstAttribute="top" secondItem="LFV-ec-jms" secondAttribute="top" constant="90" id="ctH-XQ-ZHd"/>
-                            <constraint firstItem="Tfi-f2-ZDo" firstAttribute="leading" secondItem="ugH-Gs-MS5" secondAttribute="leading" type="default" id="kXE-OK-r6r"/>
-                            <constraint firstItem="Tfi-f2-ZDo" firstAttribute="baseline" secondItem="NIi-u7-grB" secondAttribute="baseline" type="default" id="sPC-2M-qjm"/>
+                            <constraint firstItem="Tfi-f2-ZDo" firstAttribute="baseline" secondItem="NIi-u7-grB" secondAttribute="baseline" type="default" id="K5f-lz-laV"/>
+                            <constraint firstItem="WkP-LD-xO3" firstAttribute="top" secondItem="LFV-ec-jms" secondAttribute="top" type="default" id="Krt-83-6Ix"/>
+                            <constraint firstAttribute="trailing" secondItem="ugH-Gs-MS5" secondAttribute="trailing" constant="35" id="N5S-3s-QYD"/>
+                            <constraint firstItem="NIi-u7-grB" firstAttribute="top" secondItem="LFV-ec-jms" secondAttribute="top" constant="86" id="d9I-Ng-VSm"/>
+                            <constraint firstItem="WkP-LD-xO3" firstAttribute="leading" secondItem="LFV-ec-jms" secondAttribute="leading" type="default" id="itb-SC-jNU"/>
+                            <constraint firstItem="ugH-Gs-MS5" firstAttribute="leading" secondItem="Tfi-f2-ZDo" secondAttribute="leading" type="default" id="lc9-hZ-sfI"/>
+                            <constraint firstItem="ugH-Gs-MS5" firstAttribute="baseline" secondItem="V7M-Tb-49t" secondAttribute="baseline" type="default" id="n4s-89-OhP"/>
+                            <constraint firstAttribute="bottom" secondItem="V7M-Tb-49t" secondAttribute="bottom" constant="13" id="zLq-l8-6us"/>
                         </constraints>
                     </view>
                     <toolbarItems/>
@@ -193,6 +196,7 @@
     </scenes>
     <resources>
         <image name="nepal_feature_image.jpg" width="640" height="460"/>
+        <image name="region_grid.png" width="320" height="230"/>
     </resources>
     <classes>
         <class className="NSLayoutConstraint" superclassName="NSObject">
