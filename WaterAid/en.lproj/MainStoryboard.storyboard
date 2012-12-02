@@ -178,16 +178,34 @@
             </objects>
             <point key="canvasLocation" x="651" y="435"/>
         </scene>
-        <!--View Controller-->
+        <!--Global News Controller-->
         <scene sceneID="sEU-me-rTo">
             <objects>
-                <viewController id="OMP-aT-ieB" sceneMemberID="viewController">
+                <viewController id="OMP-aT-ieB" customClass="WAGlobalNewsController" sceneMemberID="viewController">
                     <view key="view" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="95F-8Q-avt">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Global News" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hnt-tD-b5D">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="FHF-Oj-dEo"/>
+                                    <constraint firstAttribute="width" constant="128" id="WOV-Wn-3KY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="0.0" green="0.68235294117647061" blue="0.93725490196078431" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="hnt-tD-b5D" firstAttribute="top" secondItem="95F-8Q-avt" secondAttribute="top" constant="11" id="wK5-vH-t2L"/>
+                            <constraint firstItem="hnt-tD-b5D" firstAttribute="leading" secondItem="95F-8Q-avt" secondAttribute="leading" constant="11" id="zLv-eq-kHb"/>
+                        </constraints>
                     </view>
                     <toolbarItems/>
+                    <connections>
+                        <outlet property="titleLabel" destination="hnt-tD-b5D" id="gdq-cR-B4L"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="o5Q-oU-ixA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -206,6 +224,12 @@
             <source key="sourceIdentifier" type="project" relativePath="./Classes/WAFeatureSliderController.h"/>
             <relationships>
                 <relationship kind="outlet" name="featureTitle" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="WAGlobalNewsController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/WAGlobalNewsController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="titleLabel" candidateClass="UILabel"/>
             </relationships>
         </class>
         <class className="WARegionGridController" superclassName="UIViewController">
