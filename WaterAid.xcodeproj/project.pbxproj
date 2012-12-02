@@ -20,6 +20,7 @@
 		709EC242166ABFDE0047259E /* WAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 709EC241166ABFDE0047259E /* WAViewController.m */; };
 		709EC249166AC8CD0047259E /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 709EC248166AC8CD0047259E /* Icon.png */; };
 		709EC24B166AC8D70047259E /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 709EC24A166AC8D70047259E /* Icon@2x.png */; };
+		709EC250166ADCEF0047259E /* nepal_feature_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 709EC24F166ADCEF0047259E /* nepal_feature_image.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		709EC241166ABFDE0047259E /* WAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAViewController.m; sourceTree = "<group>"; };
 		709EC248166AC8CD0047259E /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../Icon.png; sourceTree = "<group>"; };
 		709EC24A166AC8D70047259E /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../Icon@2x.png"; sourceTree = "<group>"; };
+		709EC24F166ADCEF0047259E /* nepal_feature_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nepal_feature_image.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +101,7 @@
 		709EC22C166ABFDE0047259E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				709EC24C166AC97B0047259E /* Icons */,
+				709EC251166ADCF50047259E /* Images */,
 				709EC22D166ABFDE0047259E /* WaterAid-Info.plist */,
 				709EC22E166ABFDE0047259E /* InfoPlist.strings */,
 				709EC231166ABFDE0047259E /* main.m */,
@@ -135,6 +137,23 @@
 				709EC241166ABFDE0047259E /* WAViewController.m */,
 			);
 			name = Main;
+			sourceTree = "<group>";
+		};
+		709EC251166ADCF50047259E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				709EC24C166AC97B0047259E /* Icons */,
+				709EC252166ADCFF0047259E /* Feature Images */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		709EC252166ADCFF0047259E /* Feature Images */ = {
+			isa = PBXGroup;
+			children = (
+				709EC24F166ADCEF0047259E /* nepal_feature_image.jpg */,
+			);
+			name = "Feature Images";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,6 +215,7 @@
 				709EC23F166ABFDE0047259E /* MainStoryboard.storyboard in Resources */,
 				709EC249166AC8CD0047259E /* Icon.png in Resources */,
 				709EC24B166AC8D70047259E /* Icon@2x.png in Resources */,
+				709EC250166ADCEF0047259E /* nepal_feature_image.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
