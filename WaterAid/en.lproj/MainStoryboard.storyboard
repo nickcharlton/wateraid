@@ -194,14 +194,14 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="V7M-Tb-49t" firstAttribute="leading" secondItem="NIi-u7-grB" secondAttribute="leading" type="default" id="BZC-RZ-ILC"/>
+                            <constraint firstAttribute="trailing" secondItem="ugH-Gs-MS5" secondAttribute="trailing" constant="43" id="HpR-75-bWK"/>
                             <constraint firstItem="NIi-u7-grB" firstAttribute="leading" secondItem="LFV-ec-jms" secondAttribute="leading" constant="11" id="IJR-cQ-a3z"/>
                             <constraint firstItem="Tfi-f2-ZDo" firstAttribute="baseline" secondItem="NIi-u7-grB" secondAttribute="baseline" type="default" id="K5f-lz-laV"/>
                             <constraint firstItem="WkP-LD-xO3" firstAttribute="top" secondItem="LFV-ec-jms" secondAttribute="top" type="default" id="Krt-83-6Ix"/>
-                            <constraint firstAttribute="trailing" secondItem="ugH-Gs-MS5" secondAttribute="trailing" constant="35" id="N5S-3s-QYD"/>
                             <constraint firstItem="NIi-u7-grB" firstAttribute="top" secondItem="LFV-ec-jms" secondAttribute="top" constant="86" id="d9I-Ng-VSm"/>
                             <constraint firstItem="WkP-LD-xO3" firstAttribute="leading" secondItem="LFV-ec-jms" secondAttribute="leading" type="default" id="itb-SC-jNU"/>
-                            <constraint firstItem="ugH-Gs-MS5" firstAttribute="leading" secondItem="Tfi-f2-ZDo" secondAttribute="leading" type="default" id="lc9-hZ-sfI"/>
                             <constraint firstItem="ugH-Gs-MS5" firstAttribute="baseline" secondItem="V7M-Tb-49t" secondAttribute="baseline" type="default" id="n4s-89-OhP"/>
+                            <constraint firstItem="ugH-Gs-MS5" firstAttribute="leading" secondItem="Tfi-f2-ZDo" secondAttribute="leading" type="default" id="yci-1K-3ZH"/>
                             <constraint firstAttribute="bottom" secondItem="V7M-Tb-49t" secondAttribute="bottom" constant="13" id="zLq-l8-6us"/>
                         </constraints>
                     </view>
