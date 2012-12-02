@@ -13,6 +13,10 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    // Configure the appearance proxy
+    [[UILabel appearance] setFont:[UIFont fontWithName:@"MetaOffc-Norm" size:16.0]];
+    
     return YES;
 }
 							
