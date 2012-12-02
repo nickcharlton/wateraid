@@ -68,8 +68,8 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="nepal_feature_image.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="hGY-kA-v0U" userLabel="Feature Image"/>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Nepal" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V4q-ZV-xwI">
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="31" id="B8R-cT-lLA"/>
                                     <constraint firstAttribute="width" constant="141" id="LRJ-yZ-fpk"/>
+                                    <constraint firstAttribute="height" constant="43" id="ixn-H6-q1l"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -97,18 +97,18 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="hGY-kA-v0U" firstAttribute="top" secondItem="MV2-La-JKh" secondAttribute="top" type="default" id="0Js-25-S7w"/>
-                            <constraint firstItem="BG6-Ho-SZi" firstAttribute="top" secondItem="MV2-La-JKh" secondAttribute="top" constant="56" id="0ja-fb-GcE"/>
                             <constraint firstItem="jSR-X9-62w" firstAttribute="trailing" secondItem="wAz-1U-Oa0" secondAttribute="trailing" type="default" id="3ao-QO-dHR"/>
-                            <constraint firstItem="V4q-ZV-xwI" firstAttribute="top" secondItem="MV2-La-JKh" secondAttribute="top" constant="11" id="6bi-xp-ZH5"/>
                             <constraint firstItem="jSR-X9-62w" firstAttribute="top" secondItem="MV2-La-JKh" secondAttribute="top" constant="92" id="85f-Xs-ule"/>
                             <constraint firstItem="BG6-Ho-SZi" firstAttribute="trailing" secondItem="V4q-ZV-xwI" secondAttribute="trailing" type="default" id="BI2-qy-XC3"/>
                             <constraint firstItem="wAz-1U-Oa0" firstAttribute="top" secondItem="MV2-La-JKh" secondAttribute="top" constant="74" id="IVN-vZ-0rC"/>
                             <constraint firstItem="hGY-kA-v0U" firstAttribute="trailing" secondItem="MV2-La-JKh" secondAttribute="trailing" type="default" id="Iup-iJ-DkR"/>
                             <constraint firstItem="BG6-Ho-SZi" firstAttribute="leading" secondItem="V4q-ZV-xwI" secondAttribute="leading" type="default" id="Jcp-el-XrO"/>
+                            <constraint firstItem="V4q-ZV-xwI" firstAttribute="top" secondItem="MV2-La-JKh" secondAttribute="top" constant="5" id="Ntt-Ku-6bk"/>
                             <constraint firstItem="V4q-ZV-xwI" firstAttribute="leading" secondItem="MV2-La-JKh" secondAttribute="leading" constant="11" id="TaB-kk-d8I"/>
                             <constraint firstItem="BG6-Ho-SZi" firstAttribute="trailing" secondItem="wAz-1U-Oa0" secondAttribute="trailing" type="default" id="UID-8v-w4a"/>
                             <constraint firstItem="hGY-kA-v0U" firstAttribute="leading" secondItem="MV2-La-JKh" secondAttribute="leading" type="default" id="b7L-ey-605"/>
                             <constraint firstItem="BG6-Ho-SZi" firstAttribute="leading" secondItem="wAz-1U-Oa0" secondAttribute="leading" type="default" id="bpf-4d-Bx1"/>
+                            <constraint firstItem="BG6-Ho-SZi" firstAttribute="top" secondItem="V4q-ZV-xwI" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="h98-aw-lfj"/>
                             <constraint firstItem="jSR-X9-62w" firstAttribute="leading" secondItem="wAz-1U-Oa0" secondAttribute="leading" type="default" id="kQH-q5-UFM"/>
                             <constraint firstItem="hGY-kA-v0U" firstAttribute="bottom" secondItem="MV2-La-JKh" secondAttribute="bottom" type="default" id="xAE-xN-BgK"/>
                         </constraints>

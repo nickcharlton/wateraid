@@ -13,7 +13,7 @@
 - (void)viewDidLoad
 {
     // set the title size
-    UIFont *font = [UIFont fontWithName:@"MetaOffc-Norm" size:25.0f];
+    UIFont *font = [UIFont fontWithName:@"MetaOffc-Norm" size:35.0f];
     [self.featureTitle setFont:font];
 }
 
