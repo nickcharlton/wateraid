@@ -19,13 +19,51 @@
                                             <constraint firstAttribute="height" constant="230" id="eXr-ph-WXJ"/>
                                         </constraints>
                                     </imageView>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Nepal" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V4q-ZV-xwI">
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="31" id="B8R-cT-lLA"/>
+                                            <constraint firstAttribute="width" constant="141" id="ReB-Qh-WPb"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Piplegaun Village" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BG6-Ho-SZi">
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="21" id="3e6-bF-V6l"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="100% Water." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wAz-1U-Oa0">
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="100% Sanitation." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jSR-X9-62w">
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <constraints>
+                                    <constraint firstItem="V4q-ZV-xwI" firstAttribute="leading" secondItem="Npc-qm-YVs" secondAttribute="leading" constant="10" id="3Y2-8S-yFu"/>
+                                    <constraint firstItem="BG6-Ho-SZi" firstAttribute="trailing" secondItem="V4q-ZV-xwI" secondAttribute="trailing" type="default" id="3te-lP-rTu"/>
+                                    <constraint firstItem="wAz-1U-Oa0" firstAttribute="leading" secondItem="BG6-Ho-SZi" secondAttribute="leading" type="default" id="4U2-9k-XzL"/>
+                                    <constraint firstItem="wAz-1U-Oa0" firstAttribute="top" secondItem="Npc-qm-YVs" secondAttribute="top" constant="68" id="7OL-Sw-u0l"/>
+                                    <constraint firstItem="V4q-ZV-xwI" firstAttribute="top" secondItem="Npc-qm-YVs" secondAttribute="top" constant="10" id="7tq-aK-1Ah"/>
+                                    <constraint firstItem="wAz-1U-Oa0" firstAttribute="trailing" secondItem="BG6-Ho-SZi" secondAttribute="trailing" type="default" id="B1W-4R-lb4"/>
+                                    <constraint firstItem="BG6-Ho-SZi" firstAttribute="leading" secondItem="V4q-ZV-xwI" secondAttribute="leading" type="default" id="IUG-Dt-eR1"/>
                                     <constraint firstItem="hGY-kA-v0U" firstAttribute="top" secondItem="Npc-qm-YVs" secondAttribute="top" type="default" id="Mge-eu-Dd9"/>
+                                    <constraint firstItem="BG6-Ho-SZi" firstAttribute="top" secondItem="V4q-ZV-xwI" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="Mi5-16-e0l"/>
+                                    <constraint firstItem="jSR-X9-62w" firstAttribute="leading" secondItem="wAz-1U-Oa0" secondAttribute="leading" type="default" id="PZe-Zj-iy0"/>
                                     <constraint firstItem="hGY-kA-v0U" firstAttribute="leading" secondItem="Npc-qm-YVs" secondAttribute="leading" type="default" id="PrU-ET-Tyo"/>
                                     <constraint firstItem="hGY-kA-v0U" firstAttribute="centerX" secondItem="Npc-qm-YVs" secondAttribute="centerX" type="default" id="bPU-ik-1i6"/>
+                                    <constraint firstItem="wAz-1U-Oa0" firstAttribute="trailing" secondItem="jSR-X9-62w" secondAttribute="trailing" type="default" id="teM-eF-ZPq"/>
                                     <constraint firstItem="hGY-kA-v0U" firstAttribute="trailing" secondItem="Npc-qm-YVs" secondAttribute="trailing" type="default" id="v9b-Lz-K39"/>
                                     <constraint firstAttribute="bottom" secondItem="hGY-kA-v0U" secondAttribute="bottom" constant="318" id="wX5-cq-0qa"/>
+                                    <constraint firstItem="jSR-X9-62w" firstAttribute="top" secondItem="Npc-qm-YVs" secondAttribute="top" constant="89" id="yYk-QR-MXC"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
