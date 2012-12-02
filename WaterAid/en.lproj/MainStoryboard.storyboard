@@ -125,6 +125,11 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="4" translatesAutoresizingMaskIntoConstraints="NO" id="Yiv-vE-TxR">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="64" id="SIv-gp-dqQ"/>
+                                </constraints>
+                            </pageControl>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -135,6 +140,7 @@
                             <constraint firstItem="wAz-1U-Oa0" firstAttribute="top" secondItem="MV2-La-JKh" secondAttribute="top" constant="74" id="IVN-vZ-0rC"/>
                             <constraint firstItem="hGY-kA-v0U" firstAttribute="trailing" secondItem="MV2-La-JKh" secondAttribute="trailing" type="default" id="Iup-iJ-DkR"/>
                             <constraint firstItem="BG6-Ho-SZi" firstAttribute="leading" secondItem="V4q-ZV-xwI" secondAttribute="leading" type="default" id="Jcp-el-XrO"/>
+                            <constraint firstItem="Yiv-vE-TxR" firstAttribute="centerX" secondItem="hGY-kA-v0U" secondAttribute="centerX" type="default" id="LO4-jg-eRa"/>
                             <constraint firstItem="V4q-ZV-xwI" firstAttribute="top" secondItem="MV2-La-JKh" secondAttribute="top" constant="5" id="Ntt-Ku-6bk"/>
                             <constraint firstItem="V4q-ZV-xwI" firstAttribute="leading" secondItem="MV2-La-JKh" secondAttribute="leading" constant="11" id="TaB-kk-d8I"/>
                             <constraint firstItem="BG6-Ho-SZi" firstAttribute="trailing" secondItem="wAz-1U-Oa0" secondAttribute="trailing" type="default" id="UID-8v-w4a"/>
@@ -142,6 +148,7 @@
                             <constraint firstItem="BG6-Ho-SZi" firstAttribute="leading" secondItem="wAz-1U-Oa0" secondAttribute="leading" type="default" id="bpf-4d-Bx1"/>
                             <constraint firstItem="BG6-Ho-SZi" firstAttribute="top" secondItem="V4q-ZV-xwI" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="h98-aw-lfj"/>
                             <constraint firstItem="jSR-X9-62w" firstAttribute="leading" secondItem="wAz-1U-Oa0" secondAttribute="leading" type="default" id="kQH-q5-UFM"/>
+                            <constraint firstItem="Yiv-vE-TxR" firstAttribute="bottom" secondItem="MV2-La-JKh" secondAttribute="bottom" type="default" id="sJ6-cr-myK"/>
                             <constraint firstItem="hGY-kA-v0U" firstAttribute="bottom" secondItem="MV2-La-JKh" secondAttribute="bottom" type="default" id="xAE-xN-BgK"/>
                         </constraints>
                     </view>
