@@ -10,4 +10,7 @@
 
 @interface WASupportAndInvolvement : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *supportLabel;
+@property (weak, nonatomic) IBOutlet UILabel *getInvolvedLabel;
+
 @end

@@ -240,9 +240,37 @@
                     <view key="view" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="rZY-lz-F6q">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="400"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Support" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FVP-wZ-R9C">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="103" id="SZY-5v-ZmQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Get Involved" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hva-16-04a">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="124" id="7dG-7e-pBk"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="FVP-wZ-R9C" firstAttribute="top" secondItem="rZY-lz-F6q" secondAttribute="top" constant="11" id="13n-Gw-jMd"/>
+                            <constraint firstAttribute="trailing" secondItem="Hva-16-04a" secondAttribute="trailing" constant="16" id="LQ9-id-qNA"/>
+                            <constraint firstItem="Hva-16-04a" firstAttribute="baseline" secondItem="FVP-wZ-R9C" secondAttribute="baseline" type="default" id="S5a-6E-MfC"/>
+                            <constraint firstItem="FVP-wZ-R9C" firstAttribute="leading" secondItem="rZY-lz-F6q" secondAttribute="leading" constant="11" id="aJl-To-K5s"/>
+                        </constraints>
                     </view>
                     <toolbarItems/>
+                    <connections>
+                        <outlet property="getInvolvedLabel" destination="Hva-16-04a" id="bpR-Uj-ZPi"/>
+                        <outlet property="supportLabel" destination="FVP-wZ-R9C" id="j42-yP-vSt"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DZf-eC-gab" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -280,6 +308,10 @@
         </class>
         <class className="WASupportAndInvolvement" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/WASupportAndInvolvement.h"/>
+            <relationships>
+                <relationship kind="outlet" name="getInvolvedLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="supportLabel" candidateClass="UILabel"/>
+            </relationships>
         </class>
         <class className="WAViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/WAViewController.h"/>
