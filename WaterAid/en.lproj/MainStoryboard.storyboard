@@ -114,6 +114,9 @@
                         </constraints>
                     </view>
                     <toolbarItems/>
+                    <connections>
+                        <outlet property="featureTitle" destination="V4q-ZV-xwI" id="2Ow-V7-flC"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fmk-Od-WR7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -182,6 +185,9 @@
         </class>
         <class className="WAFeatureSliderController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/WAFeatureSliderController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="featureTitle" candidateClass="UILabel"/>
+            </relationships>
         </class>
         <class className="WARegionGridController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/WARegionGridController.h"/>

@@ -10,4 +10,6 @@
 
 @interface WAFeatureSliderController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *featureTitle;
+
 @end

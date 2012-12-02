@@ -8,20 +8,13 @@
 
 #import "WAFeatureSliderController.h"
 
-@interface WAFeatureSliderController ()
-
-@end
-
 @implementation WAFeatureSliderController
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+- (void)viewDidLoad
 {
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Initialization code here.
-    }
-    
-    return self;
+    // set the title size
+    UIFont *font = [UIFont fontWithName:@"MetaOffc-Norm" size:25.0f];
+    [self.featureTitle setFont:font];
 }
 
 @end
