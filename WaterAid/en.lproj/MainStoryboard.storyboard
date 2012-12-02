@@ -14,56 +14,22 @@
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Npc-qm-YVs" userLabel="Page Scroll View">
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="nepal_feature_image.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="hGY-kA-v0U" userLabel="Feature Image">
+                                    <containerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lsD-kz-RpN" userLabel="Feature Slider">
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="230" id="eXr-ph-WXJ"/>
+                                            <constraint firstAttribute="height" constant="230" id="M7D-z3-GCB"/>
                                         </constraints>
-                                    </imageView>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Nepal" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V4q-ZV-xwI">
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="31" id="B8R-cT-lLA"/>
-                                            <constraint firstAttribute="width" constant="141" id="ReB-Qh-WPb"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Piplegaun Village" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BG6-Ho-SZi">
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="21" id="3e6-bF-V6l"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="100% Water." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wAz-1U-Oa0">
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="100% Sanitation." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jSR-X9-62w">
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
+                                        <connections>
+                                            <segue destination="fnv-no-K32" kind="embed" id="mV3-Sr-pES"/>
+                                        </connections>
+                                    </containerView>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="V4q-ZV-xwI" firstAttribute="leading" secondItem="Npc-qm-YVs" secondAttribute="leading" constant="10" id="3Y2-8S-yFu"/>
-                                    <constraint firstItem="BG6-Ho-SZi" firstAttribute="trailing" secondItem="V4q-ZV-xwI" secondAttribute="trailing" type="default" id="3te-lP-rTu"/>
-                                    <constraint firstItem="wAz-1U-Oa0" firstAttribute="leading" secondItem="BG6-Ho-SZi" secondAttribute="leading" type="default" id="4U2-9k-XzL"/>
-                                    <constraint firstItem="wAz-1U-Oa0" firstAttribute="top" secondItem="Npc-qm-YVs" secondAttribute="top" constant="68" id="7OL-Sw-u0l"/>
-                                    <constraint firstItem="V4q-ZV-xwI" firstAttribute="top" secondItem="Npc-qm-YVs" secondAttribute="top" constant="10" id="7tq-aK-1Ah"/>
-                                    <constraint firstItem="wAz-1U-Oa0" firstAttribute="trailing" secondItem="BG6-Ho-SZi" secondAttribute="trailing" type="default" id="B1W-4R-lb4"/>
-                                    <constraint firstItem="BG6-Ho-SZi" firstAttribute="leading" secondItem="V4q-ZV-xwI" secondAttribute="leading" type="default" id="IUG-Dt-eR1"/>
-                                    <constraint firstItem="hGY-kA-v0U" firstAttribute="top" secondItem="Npc-qm-YVs" secondAttribute="top" type="default" id="Mge-eu-Dd9"/>
-                                    <constraint firstItem="jSR-X9-62w" firstAttribute="leading" secondItem="wAz-1U-Oa0" secondAttribute="leading" type="default" id="PZe-Zj-iy0"/>
-                                    <constraint firstItem="hGY-kA-v0U" firstAttribute="leading" secondItem="Npc-qm-YVs" secondAttribute="leading" type="default" id="PrU-ET-Tyo"/>
-                                    <constraint firstItem="hGY-kA-v0U" firstAttribute="centerX" secondItem="Npc-qm-YVs" secondAttribute="centerX" type="default" id="bPU-ik-1i6"/>
-                                    <constraint firstItem="BG6-Ho-SZi" firstAttribute="top" secondItem="Npc-qm-YVs" secondAttribute="top" constant="47" id="ggj-g4-Hq3"/>
-                                    <constraint firstItem="wAz-1U-Oa0" firstAttribute="trailing" secondItem="jSR-X9-62w" secondAttribute="trailing" type="default" id="teM-eF-ZPq"/>
-                                    <constraint firstItem="hGY-kA-v0U" firstAttribute="trailing" secondItem="Npc-qm-YVs" secondAttribute="trailing" type="default" id="v9b-Lz-K39"/>
-                                    <constraint firstAttribute="bottom" secondItem="hGY-kA-v0U" secondAttribute="bottom" constant="318" id="wX5-cq-0qa"/>
-                                    <constraint firstItem="jSR-X9-62w" firstAttribute="top" secondItem="Npc-qm-YVs" secondAttribute="top" constant="89" id="yYk-QR-MXC"/>
+                                    <constraint firstItem="lsD-kz-RpN" firstAttribute="leading" secondItem="Npc-qm-YVs" secondAttribute="leading" type="default" id="Ewx-cz-yH7"/>
+                                    <constraint firstItem="lsD-kz-RpN" firstAttribute="centerX" secondItem="Npc-qm-YVs" secondAttribute="centerX" type="default" id="Jc9-aK-R7Z"/>
+                                    <constraint firstItem="lsD-kz-RpN" firstAttribute="top" secondItem="Npc-qm-YVs" secondAttribute="top" type="default" id="Nhl-LV-LCw"/>
+                                    <constraint firstAttribute="bottom" secondItem="lsD-kz-RpN" secondAttribute="bottom" constant="318" id="Xac-sH-tx7"/>
+                                    <constraint firstItem="lsD-kz-RpN" firstAttribute="trailing" secondItem="Npc-qm-YVs" secondAttribute="trailing" type="default" id="beA-FH-u6O"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
@@ -79,6 +45,68 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
+        <!--Feature Slider Controller-->
+        <scene sceneID="aO7-q0-ng6">
+            <objects>
+                <viewController id="fnv-no-K32" customClass="WAFeatureSliderController" sceneMemberID="viewController">
+                    <view key="view" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="MV2-La-JKh">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="230"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="nepal_feature_image.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="hGY-kA-v0U" userLabel="Feature Image"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Nepal" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V4q-ZV-xwI">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="31" id="B8R-cT-lLA"/>
+                                    <constraint firstAttribute="width" constant="141" id="LRJ-yZ-fpk"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Piplegaun Village" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BG6-Ho-SZi">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="DuR-bM-2AP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="100% Water." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wAz-1U-Oa0">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="100% Sanitation." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jSR-X9-62w">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="hGY-kA-v0U" firstAttribute="top" secondItem="MV2-La-JKh" secondAttribute="top" type="default" id="0Js-25-S7w"/>
+                            <constraint firstItem="BG6-Ho-SZi" firstAttribute="top" secondItem="MV2-La-JKh" secondAttribute="top" constant="56" id="0ja-fb-GcE"/>
+                            <constraint firstItem="jSR-X9-62w" firstAttribute="trailing" secondItem="wAz-1U-Oa0" secondAttribute="trailing" type="default" id="3ao-QO-dHR"/>
+                            <constraint firstItem="V4q-ZV-xwI" firstAttribute="top" secondItem="MV2-La-JKh" secondAttribute="top" constant="11" id="6bi-xp-ZH5"/>
+                            <constraint firstItem="jSR-X9-62w" firstAttribute="top" secondItem="MV2-La-JKh" secondAttribute="top" constant="92" id="85f-Xs-ule"/>
+                            <constraint firstItem="BG6-Ho-SZi" firstAttribute="trailing" secondItem="V4q-ZV-xwI" secondAttribute="trailing" type="default" id="BI2-qy-XC3"/>
+                            <constraint firstItem="wAz-1U-Oa0" firstAttribute="top" secondItem="MV2-La-JKh" secondAttribute="top" constant="74" id="IVN-vZ-0rC"/>
+                            <constraint firstItem="hGY-kA-v0U" firstAttribute="trailing" secondItem="MV2-La-JKh" secondAttribute="trailing" type="default" id="Iup-iJ-DkR"/>
+                            <constraint firstItem="BG6-Ho-SZi" firstAttribute="leading" secondItem="V4q-ZV-xwI" secondAttribute="leading" type="default" id="Jcp-el-XrO"/>
+                            <constraint firstItem="V4q-ZV-xwI" firstAttribute="leading" secondItem="MV2-La-JKh" secondAttribute="leading" constant="11" id="TaB-kk-d8I"/>
+                            <constraint firstItem="BG6-Ho-SZi" firstAttribute="trailing" secondItem="wAz-1U-Oa0" secondAttribute="trailing" type="default" id="UID-8v-w4a"/>
+                            <constraint firstItem="hGY-kA-v0U" firstAttribute="leading" secondItem="MV2-La-JKh" secondAttribute="leading" type="default" id="b7L-ey-605"/>
+                            <constraint firstItem="BG6-Ho-SZi" firstAttribute="leading" secondItem="wAz-1U-Oa0" secondAttribute="leading" type="default" id="bpf-4d-Bx1"/>
+                            <constraint firstItem="jSR-X9-62w" firstAttribute="leading" secondItem="wAz-1U-Oa0" secondAttribute="leading" type="default" id="kQH-q5-UFM"/>
+                            <constraint firstItem="hGY-kA-v0U" firstAttribute="bottom" secondItem="MV2-La-JKh" secondAttribute="bottom" type="default" id="xAE-xN-BgK"/>
+                        </constraints>
+                    </view>
+                    <toolbarItems/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fmk-Od-WR7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="651" y="111"/>
+        </scene>
     </scenes>
     <resources>
         <image name="nepal_feature_image.jpg" width="640" height="460"/>
@@ -86,6 +114,9 @@
     <classes>
         <class className="NSLayoutConstraint" superclassName="NSObject">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="WAFeatureSliderController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/WAFeatureSliderController.h"/>
         </class>
         <class className="WAViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/WAViewController.h"/>
