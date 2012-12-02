@@ -27,6 +27,7 @@
 		709EC265166B08E10047259E /* region_grid.png in Resources */ = {isa = PBXBuildFile; fileRef = 709EC263166B08E10047259E /* region_grid.png */; };
 		709EC266166B08E10047259E /* region_grid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 709EC264166B08E10047259E /* region_grid@2x.png */; };
 		709EC26A166B0AA60047259E /* WAGlobalNewsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 709EC269166B0AA60047259E /* WAGlobalNewsController.m */; };
+		70AF3600166B195E0050A48E /* WASupportAndInvolvement.m in Sources */ = {isa = PBXBuildFile; fileRef = 70AF35FF166B195E0050A48E /* WASupportAndInvolvement.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,8 @@
 		709EC264166B08E10047259E /* region_grid@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "region_grid@2x.png"; sourceTree = "<group>"; };
 		709EC268166B0AA60047259E /* WAGlobalNewsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WAGlobalNewsController.h; sourceTree = "<group>"; };
 		709EC269166B0AA60047259E /* WAGlobalNewsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WAGlobalNewsController.m; sourceTree = "<group>"; };
+		70AF35FE166B195E0050A48E /* WASupportAndInvolvement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WASupportAndInvolvement.h; sourceTree = "<group>"; };
+		70AF35FF166B195E0050A48E /* WASupportAndInvolvement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WASupportAndInvolvement.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,9 +144,10 @@
 		709EC24D166AC98A0047259E /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				709EC25A166AF3690047259E /* Feature Slider */,
+				709EC25A166AF3690047259E /* WAFeatureSlider */,
 				709EC25E166AF8180047259E /* WARegionGrid */,
 				709EC267166B0A920047259E /* WAGlobalNews */,
+				70AF35FC166B19140050A48E /* WASupportAndInvolvement */,
 				709EC24E166AC9A20047259E /* Main */,
 			);
 			name = "View Controllers";
@@ -184,13 +188,13 @@
 			name = Fonts;
 			sourceTree = "<group>";
 		};
-		709EC25A166AF3690047259E /* Feature Slider */ = {
+		709EC25A166AF3690047259E /* WAFeatureSlider */ = {
 			isa = PBXGroup;
 			children = (
 				709EC25B166AF52E0047259E /* WAFeatureSliderController.h */,
 				709EC25C166AF52E0047259E /* WAFeatureSliderController.m */,
 			);
-			name = "Feature Slider";
+			name = WAFeatureSlider;
 			sourceTree = "<group>";
 		};
 		709EC25E166AF8180047259E /* WARegionGrid */ = {
@@ -218,6 +222,15 @@
 				709EC269166B0AA60047259E /* WAGlobalNewsController.m */,
 			);
 			name = WAGlobalNews;
+			sourceTree = "<group>";
+		};
+		70AF35FC166B19140050A48E /* WASupportAndInvolvement */ = {
+			isa = PBXGroup;
+			children = (
+				70AF35FE166B195E0050A48E /* WASupportAndInvolvement.h */,
+				70AF35FF166B195E0050A48E /* WASupportAndInvolvement.m */,
+			);
+			name = WASupportAndInvolvement;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,6 +312,7 @@
 				709EC25D166AF52E0047259E /* WAFeatureSliderController.m in Sources */,
 				709EC261166AF85B0047259E /* WARegionGridController.m in Sources */,
 				709EC26A166B0AA60047259E /* WAGlobalNewsController.m in Sources */,
+				70AF3600166B195E0050A48E /* WASupportAndInvolvement.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +429,7 @@
 				709EC247166ABFDE0047259E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
