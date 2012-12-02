@@ -217,10 +217,21 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Take action to support the 1 in 3 women without a toilet – 19th November 2012" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="tJd-RK-51y">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="EeX-bC-d7x"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.68235294117647061" blue="0.93725490196078431" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="hnt-tD-b5D" firstAttribute="top" secondItem="95F-8Q-avt" secondAttribute="top" constant="11" id="wK5-vH-t2L"/>
+                            <constraint firstAttribute="bottom" secondItem="tJd-RK-51y" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="8mE-iT-UxO"/>
+                            <constraint firstItem="tJd-RK-51y" firstAttribute="top" secondItem="hnt-tD-b5D" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="9wi-ET-cO5"/>
+                            <constraint firstItem="tJd-RK-51y" firstAttribute="leading" secondItem="95F-8Q-avt" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="N3E-0J-dM7"/>
+                            <constraint firstAttribute="trailing" secondItem="tJd-RK-51y" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="jDM-Xa-QyN"/>
                             <constraint firstItem="hnt-tD-b5D" firstAttribute="leading" secondItem="95F-8Q-avt" secondAttribute="leading" constant="11" id="zLv-eq-kHb"/>
                         </constraints>
                     </view>
