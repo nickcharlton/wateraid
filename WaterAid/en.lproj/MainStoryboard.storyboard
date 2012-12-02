@@ -56,10 +56,10 @@
                                     <constraint firstItem="wAz-1U-Oa0" firstAttribute="trailing" secondItem="BG6-Ho-SZi" secondAttribute="trailing" type="default" id="B1W-4R-lb4"/>
                                     <constraint firstItem="BG6-Ho-SZi" firstAttribute="leading" secondItem="V4q-ZV-xwI" secondAttribute="leading" type="default" id="IUG-Dt-eR1"/>
                                     <constraint firstItem="hGY-kA-v0U" firstAttribute="top" secondItem="Npc-qm-YVs" secondAttribute="top" type="default" id="Mge-eu-Dd9"/>
-                                    <constraint firstItem="BG6-Ho-SZi" firstAttribute="top" secondItem="V4q-ZV-xwI" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="Mi5-16-e0l"/>
                                     <constraint firstItem="jSR-X9-62w" firstAttribute="leading" secondItem="wAz-1U-Oa0" secondAttribute="leading" type="default" id="PZe-Zj-iy0"/>
                                     <constraint firstItem="hGY-kA-v0U" firstAttribute="leading" secondItem="Npc-qm-YVs" secondAttribute="leading" type="default" id="PrU-ET-Tyo"/>
                                     <constraint firstItem="hGY-kA-v0U" firstAttribute="centerX" secondItem="Npc-qm-YVs" secondAttribute="centerX" type="default" id="bPU-ik-1i6"/>
+                                    <constraint firstItem="BG6-Ho-SZi" firstAttribute="top" secondItem="Npc-qm-YVs" secondAttribute="top" constant="47" id="ggj-g4-Hq3"/>
                                     <constraint firstItem="wAz-1U-Oa0" firstAttribute="trailing" secondItem="jSR-X9-62w" secondAttribute="trailing" type="default" id="teM-eF-ZPq"/>
                                     <constraint firstItem="hGY-kA-v0U" firstAttribute="trailing" secondItem="Npc-qm-YVs" secondAttribute="trailing" type="default" id="v9b-Lz-K39"/>
                                     <constraint firstAttribute="bottom" secondItem="hGY-kA-v0U" secondAttribute="bottom" constant="318" id="wX5-cq-0qa"/>
