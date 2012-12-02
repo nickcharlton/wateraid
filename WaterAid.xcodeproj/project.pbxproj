@@ -33,6 +33,14 @@
 		70AF3607166B22DE0050A48E /* footer.png in Resources */ = {isa = PBXBuildFile; fileRef = 70AF3605166B22DE0050A48E /* footer.png */; };
 		70AF3608166B22DE0050A48E /* footer@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 70AF3606166B22DE0050A48E /* footer@2x.png */; };
 		70AF360C166B231B0050A48E /* WAFooterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70AF360B166B231B0050A48E /* WAFooterController.m */; };
+		70AF3629166B72B70050A48E /* africa.png in Resources */ = {isa = PBXBuildFile; fileRef = 70AF3627166B72B70050A48E /* africa.png */; };
+		70AF362A166B72B70050A48E /* africa@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 70AF3628166B72B70050A48E /* africa@2x.png */; };
+		70AF362E166B74740050A48E /* asia.png in Resources */ = {isa = PBXBuildFile; fileRef = 70AF362C166B74740050A48E /* asia.png */; };
+		70AF362F166B74740050A48E /* asia@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 70AF362D166B74740050A48E /* asia@2x.png */; };
+		70AF3632166B77900050A48E /* central_america.png in Resources */ = {isa = PBXBuildFile; fileRef = 70AF3630166B77900050A48E /* central_america.png */; };
+		70AF3633166B77900050A48E /* central_america@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 70AF3631166B77900050A48E /* central_america@2x.png */; };
+		70AF3636166B78160050A48E /* west_pacific.png in Resources */ = {isa = PBXBuildFile; fileRef = 70AF3634166B78160050A48E /* west_pacific.png */; };
+		70AF3637166B78160050A48E /* west_pacific@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 70AF3635166B78160050A48E /* west_pacific@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +80,14 @@
 		70AF3606166B22DE0050A48E /* footer@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "footer@2x.png"; sourceTree = "<group>"; };
 		70AF360A166B231B0050A48E /* WAFooterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WAFooterController.h; sourceTree = "<group>"; };
 		70AF360B166B231B0050A48E /* WAFooterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WAFooterController.m; sourceTree = "<group>"; };
+		70AF3627166B72B70050A48E /* africa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = africa.png; sourceTree = "<group>"; };
+		70AF3628166B72B70050A48E /* africa@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "africa@2x.png"; sourceTree = "<group>"; };
+		70AF362C166B74740050A48E /* asia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = asia.png; sourceTree = "<group>"; };
+		70AF362D166B74740050A48E /* asia@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "asia@2x.png"; sourceTree = "<group>"; };
+		70AF3630166B77900050A48E /* central_america.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = central_america.png; sourceTree = "<group>"; };
+		70AF3631166B77900050A48E /* central_america@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "central_america@2x.png"; sourceTree = "<group>"; };
+		70AF3634166B78160050A48E /* west_pacific.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = west_pacific.png; sourceTree = "<group>"; };
+		70AF3635166B78160050A48E /* west_pacific@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "west_pacific@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -221,6 +237,14 @@
 		709EC262166B08B90047259E /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				70AF3627166B72B70050A48E /* africa.png */,
+				70AF3628166B72B70050A48E /* africa@2x.png */,
+				70AF362C166B74740050A48E /* asia.png */,
+				70AF362D166B74740050A48E /* asia@2x.png */,
+				70AF3630166B77900050A48E /* central_america.png */,
+				70AF3631166B77900050A48E /* central_america@2x.png */,
+				70AF3634166B78160050A48E /* west_pacific.png */,
+				70AF3635166B78160050A48E /* west_pacific@2x.png */,
 				70AF3605166B22DE0050A48E /* footer.png */,
 				70AF3606166B22DE0050A48E /* footer@2x.png */,
 				70AF3601166B20730050A48E /* support_getinvolved.png */,
@@ -325,6 +349,14 @@
 				70AF3604166B20730050A48E /* support_getinvolved@2x.png in Resources */,
 				70AF3607166B22DE0050A48E /* footer.png in Resources */,
 				70AF3608166B22DE0050A48E /* footer@2x.png in Resources */,
+				70AF3629166B72B70050A48E /* africa.png in Resources */,
+				70AF362A166B72B70050A48E /* africa@2x.png in Resources */,
+				70AF362E166B74740050A48E /* asia.png in Resources */,
+				70AF362F166B74740050A48E /* asia@2x.png in Resources */,
+				70AF3632166B77900050A48E /* central_america.png in Resources */,
+				70AF3633166B77900050A48E /* central_america@2x.png in Resources */,
+				70AF3636166B78160050A48E /* west_pacific.png in Resources */,
+				70AF3637166B78160050A48E /* west_pacific@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

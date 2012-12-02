@@ -190,17 +190,29 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="africa.png" translatesAutoresizingMaskIntoConstraints="NO" id="rc1-Wa-fGJ"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="asia.png" translatesAutoresizingMaskIntoConstraints="NO" id="ryx-2e-tqG"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="central_america.png" translatesAutoresizingMaskIntoConstraints="NO" id="qlk-XO-XT6"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="west_pacific.png" translatesAutoresizingMaskIntoConstraints="NO" id="6To-Sz-RBD"/>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="qlk-XO-XT6" firstAttribute="centerX" secondItem="NIi-u7-grB" secondAttribute="centerX" type="default" id="15p-qT-yLT"/>
+                            <constraint firstAttribute="bottom" secondItem="rc1-Wa-fGJ" secondAttribute="bottom" constant="33" id="2ES-sy-Epd"/>
+                            <constraint firstItem="6To-Sz-RBD" firstAttribute="centerX" secondItem="ugH-Gs-MS5" secondAttribute="centerX" type="default" id="3tM-Gc-OXk"/>
+                            <constraint firstItem="rc1-Wa-fGJ" firstAttribute="centerX" secondItem="NIi-u7-grB" secondAttribute="centerX" type="default" id="BHP-R6-Wqj"/>
                             <constraint firstItem="V7M-Tb-49t" firstAttribute="leading" secondItem="NIi-u7-grB" secondAttribute="leading" type="default" id="BZC-RZ-ILC"/>
-                            <constraint firstAttribute="trailing" secondItem="ugH-Gs-MS5" secondAttribute="trailing" constant="43" id="HpR-75-bWK"/>
+                            <constraint firstAttribute="bottom" secondItem="6To-Sz-RBD" secondAttribute="bottom" constant="49" id="BcO-cT-BIf"/>
+                            <constraint firstItem="qlk-XO-XT6" firstAttribute="top" secondItem="LFV-ec-jms" secondAttribute="top" constant="34" id="FE5-FC-7Ef"/>
                             <constraint firstItem="NIi-u7-grB" firstAttribute="leading" secondItem="LFV-ec-jms" secondAttribute="leading" constant="11" id="IJR-cQ-a3z"/>
                             <constraint firstItem="Tfi-f2-ZDo" firstAttribute="baseline" secondItem="NIi-u7-grB" secondAttribute="baseline" type="default" id="K5f-lz-laV"/>
                             <constraint firstItem="WkP-LD-xO3" firstAttribute="top" secondItem="LFV-ec-jms" secondAttribute="top" type="default" id="Krt-83-6Ix"/>
+                            <constraint firstAttribute="trailing" secondItem="ryx-2e-tqG" secondAttribute="trailing" constant="34" id="Pfd-rU-gft"/>
                             <constraint firstItem="NIi-u7-grB" firstAttribute="top" secondItem="LFV-ec-jms" secondAttribute="top" constant="86" id="d9I-Ng-VSm"/>
                             <constraint firstItem="WkP-LD-xO3" firstAttribute="leading" secondItem="LFV-ec-jms" secondAttribute="leading" type="default" id="itb-SC-jNU"/>
                             <constraint firstItem="ugH-Gs-MS5" firstAttribute="baseline" secondItem="V7M-Tb-49t" secondAttribute="baseline" type="default" id="n4s-89-OhP"/>
+                            <constraint firstItem="6To-Sz-RBD" firstAttribute="centerX" secondItem="ryx-2e-tqG" secondAttribute="centerX" type="default" id="o1P-1E-O9G"/>
+                            <constraint firstItem="ryx-2e-tqG" firstAttribute="top" secondItem="LFV-ec-jms" secondAttribute="top" constant="16" id="qAJ-RH-vcR"/>
                             <constraint firstItem="ugH-Gs-MS5" firstAttribute="leading" secondItem="Tfi-f2-ZDo" secondAttribute="leading" type="default" id="yci-1K-3ZH"/>
                             <constraint firstAttribute="bottom" secondItem="V7M-Tb-49t" secondAttribute="bottom" constant="13" id="zLq-l8-6us"/>
                         </constraints>
@@ -331,10 +343,14 @@
         </scene>
     </scenes>
     <resources>
+        <image name="africa.png" width="58" height="70"/>
+        <image name="asia.png" width="111" height="70"/>
+        <image name="central_america.png" width="39" height="33"/>
         <image name="footer.png" width="320" height="58"/>
         <image name="nepal_feature_image.jpg" width="640" height="460"/>
         <image name="region_grid.png" width="320" height="230"/>
         <image name="support_getinvolved.png" width="320" height="400"/>
+        <image name="west_pacific.png" width="67" height="39"/>
     </resources>
     <classes>
         <class className="NSLayoutConstraint" superclassName="NSObject">
