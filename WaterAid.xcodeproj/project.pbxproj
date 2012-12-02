@@ -30,6 +30,9 @@
 		70AF3600166B195E0050A48E /* WASupportAndInvolvement.m in Sources */ = {isa = PBXBuildFile; fileRef = 70AF35FF166B195E0050A48E /* WASupportAndInvolvement.m */; };
 		70AF3603166B20730050A48E /* support_getinvolved.png in Resources */ = {isa = PBXBuildFile; fileRef = 70AF3601166B20730050A48E /* support_getinvolved.png */; };
 		70AF3604166B20730050A48E /* support_getinvolved@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 70AF3602166B20730050A48E /* support_getinvolved@2x.png */; };
+		70AF3607166B22DE0050A48E /* footer.png in Resources */ = {isa = PBXBuildFile; fileRef = 70AF3605166B22DE0050A48E /* footer.png */; };
+		70AF3608166B22DE0050A48E /* footer@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 70AF3606166B22DE0050A48E /* footer@2x.png */; };
+		70AF360C166B231B0050A48E /* WAFooterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70AF360B166B231B0050A48E /* WAFooterController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +68,10 @@
 		70AF35FF166B195E0050A48E /* WASupportAndInvolvement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WASupportAndInvolvement.m; sourceTree = "<group>"; };
 		70AF3601166B20730050A48E /* support_getinvolved.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = support_getinvolved.png; sourceTree = "<group>"; };
 		70AF3602166B20730050A48E /* support_getinvolved@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "support_getinvolved@2x.png"; sourceTree = "<group>"; };
+		70AF3605166B22DE0050A48E /* footer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = footer.png; sourceTree = "<group>"; };
+		70AF3606166B22DE0050A48E /* footer@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "footer@2x.png"; sourceTree = "<group>"; };
+		70AF360A166B231B0050A48E /* WAFooterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WAFooterController.h; sourceTree = "<group>"; };
+		70AF360B166B231B0050A48E /* WAFooterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WAFooterController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +159,7 @@
 				709EC25E166AF8180047259E /* WARegionGrid */,
 				709EC267166B0A920047259E /* WAGlobalNews */,
 				70AF35FC166B19140050A48E /* WASupportAndInvolvement */,
+				70AF3609166B23020050A48E /* WAFooter */,
 				709EC24E166AC9A20047259E /* Main */,
 			);
 			name = "View Controllers";
@@ -213,6 +221,8 @@
 		709EC262166B08B90047259E /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				70AF3605166B22DE0050A48E /* footer.png */,
+				70AF3606166B22DE0050A48E /* footer@2x.png */,
 				70AF3601166B20730050A48E /* support_getinvolved.png */,
 				70AF3602166B20730050A48E /* support_getinvolved@2x.png */,
 				709EC263166B08E10047259E /* region_grid.png */,
@@ -237,6 +247,15 @@
 				70AF35FF166B195E0050A48E /* WASupportAndInvolvement.m */,
 			);
 			name = WASupportAndInvolvement;
+			sourceTree = "<group>";
+		};
+		70AF3609166B23020050A48E /* WAFooter */ = {
+			isa = PBXGroup;
+			children = (
+				70AF360A166B231B0050A48E /* WAFooterController.h */,
+				70AF360B166B231B0050A48E /* WAFooterController.m */,
+			);
+			name = WAFooter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -304,6 +323,8 @@
 				709EC266166B08E10047259E /* region_grid@2x.png in Resources */,
 				70AF3603166B20730050A48E /* support_getinvolved.png in Resources */,
 				70AF3604166B20730050A48E /* support_getinvolved@2x.png in Resources */,
+				70AF3607166B22DE0050A48E /* footer.png in Resources */,
+				70AF3608166B22DE0050A48E /* footer@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,6 +342,7 @@
 				709EC261166AF85B0047259E /* WARegionGridController.m in Sources */,
 				709EC26A166B0AA60047259E /* WAGlobalNewsController.m in Sources */,
 				70AF3600166B195E0050A48E /* WASupportAndInvolvement.m in Sources */,
+				70AF360C166B231B0050A48E /* WAFooterController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

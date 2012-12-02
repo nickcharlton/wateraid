@@ -38,18 +38,27 @@
                                             <segue destination="sGU-UX-Fa9" kind="embed" id="NiF-HK-DK4"/>
                                         </connections>
                                     </containerView>
+                                    <containerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="x4Z-2k-8fe">
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <segue destination="ugg-fW-8jr" kind="embed" id="KeT-fo-pF4"/>
+                                        </connections>
+                                    </containerView>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstItem="sav-Lj-IWb" firstAttribute="trailing" secondItem="09o-xZ-A9Q" secondAttribute="trailing" type="default" id="1Wx-Hy-inL"/>
                                     <constraint firstAttribute="height" constant="1520" id="3uz-Mh-K0d"/>
+                                    <constraint firstAttribute="bottom" secondItem="x4Z-2k-8fe" secondAttribute="bottom" constant="450" id="40T-fQ-u4g"/>
                                     <constraint firstItem="ApS-7O-Rhe" firstAttribute="top" secondItem="09o-xZ-A9Q" secondAttribute="top" constant="560" id="ALU-1N-af5"/>
                                     <constraint firstItem="sav-Lj-IWb" firstAttribute="leading" secondItem="09o-xZ-A9Q" secondAttribute="leading" type="default" id="Ezo-LA-1IZ"/>
                                     <constraint firstAttribute="bottom" secondItem="WMI-kN-LTe" secondAttribute="bottom" constant="960" id="Fyz-9O-4Dy"/>
                                     <constraint firstItem="ApS-7O-Rhe" firstAttribute="leading" secondItem="09o-xZ-A9Q" secondAttribute="leading" type="default" id="GVY-EM-SGk"/>
                                     <constraint firstItem="Dv6-Pc-82a" firstAttribute="trailing" secondItem="09o-xZ-A9Q" secondAttribute="trailing" type="default" id="Lnj-4W-6GD"/>
                                     <constraint firstItem="sav-Lj-IWb" firstAttribute="top" secondItem="09o-xZ-A9Q" secondAttribute="top" constant="230" id="SDA-Cs-WFl"/>
+                                    <constraint firstItem="x4Z-2k-8fe" firstAttribute="trailing" secondItem="09o-xZ-A9Q" secondAttribute="trailing" type="default" id="WOF-cR-C7a"/>
                                     <constraint firstAttribute="bottom" secondItem="sav-Lj-IWb" secondAttribute="bottom" constant="1060" id="ajr-fS-GOy"/>
+                                    <constraint firstItem="x4Z-2k-8fe" firstAttribute="top" secondItem="09o-xZ-A9Q" secondAttribute="top" constant="960" id="b3J-Vd-O9D"/>
                                     <constraint firstItem="ApS-7O-Rhe" firstAttribute="trailing" secondItem="09o-xZ-A9Q" secondAttribute="trailing" type="default" id="b5X-YC-5PR"/>
                                     <constraint firstAttribute="bottom" secondItem="Dv6-Pc-82a" secondAttribute="bottom" constant="1290" id="cyq-sK-3iX"/>
                                     <constraint firstItem="WMI-kN-LTe" firstAttribute="leading" secondItem="09o-xZ-A9Q" secondAttribute="leading" type="default" id="gjo-6V-GfJ"/>
@@ -57,6 +66,7 @@
                                     <constraint firstItem="ApS-7O-Rhe" firstAttribute="centerY" secondItem="09o-xZ-A9Q" secondAttribute="centerY" type="default" id="iog-ZW-Uun"/>
                                     <constraint firstItem="WMI-kN-LTe" firstAttribute="top" secondItem="09o-xZ-A9Q" secondAttribute="top" constant="460" id="lGO-AB-5Jo"/>
                                     <constraint firstItem="WMI-kN-LTe" firstAttribute="trailing" secondItem="09o-xZ-A9Q" secondAttribute="trailing" type="default" id="uuh-yr-Yeu"/>
+                                    <constraint firstItem="x4Z-2k-8fe" firstAttribute="leading" secondItem="09o-xZ-A9Q" secondAttribute="leading" type="default" id="ykD-SG-jYo"/>
                                     <constraint firstItem="Dv6-Pc-82a" firstAttribute="leading" secondItem="09o-xZ-A9Q" secondAttribute="leading" type="default" id="zLf-i3-62R"/>
                                 </constraints>
                             </view>
@@ -290,8 +300,31 @@
             </objects>
             <point key="canvasLocation" x="715" y="786"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="xLF-sx-xPx">
+            <objects>
+                <viewController id="ugg-fW-8jr" sceneMemberID="viewController">
+                    <view key="view" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="OoQ-Dm-iyi">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="110"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="footer.png" translatesAutoresizingMaskIntoConstraints="NO" id="s1B-3h-FPu"/>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="s1B-3h-FPu" firstAttribute="bottom" secondItem="OoQ-Dm-iyi" secondAttribute="bottom" type="default" id="oLj-VX-CS4"/>
+                            <constraint firstItem="s1B-3h-FPu" firstAttribute="leading" secondItem="OoQ-Dm-iyi" secondAttribute="leading" type="default" id="uEB-Oe-HiJ"/>
+                        </constraints>
+                    </view>
+                    <toolbarItems/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HrC-sp-c7v" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="715" y="1287"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="footer.png" width="320" height="58"/>
         <image name="nepal_feature_image.jpg" width="640" height="460"/>
         <image name="region_grid.png" width="320" height="230"/>
         <image name="support_getinvolved.png" width="320" height="400"/>
