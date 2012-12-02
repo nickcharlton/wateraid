@@ -252,6 +252,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="400"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="support_getinvolved.png" translatesAutoresizingMaskIntoConstraints="NO" id="4sn-5o-x3w"/>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Support" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FVP-wZ-R9C">
                                 <constraints>
                                     <constraint firstAttribute="width" constant="103" id="SZY-5v-ZmQ"/>
@@ -272,8 +273,10 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="FVP-wZ-R9C" firstAttribute="top" secondItem="rZY-lz-F6q" secondAttribute="top" constant="11" id="13n-Gw-jMd"/>
+                            <constraint firstItem="4sn-5o-x3w" firstAttribute="leading" secondItem="rZY-lz-F6q" secondAttribute="leading" type="default" id="FjU-lK-Vow"/>
                             <constraint firstAttribute="trailing" secondItem="Hva-16-04a" secondAttribute="trailing" constant="16" id="LQ9-id-qNA"/>
                             <constraint firstItem="Hva-16-04a" firstAttribute="baseline" secondItem="FVP-wZ-R9C" secondAttribute="baseline" type="default" id="S5a-6E-MfC"/>
+                            <constraint firstItem="4sn-5o-x3w" firstAttribute="top" secondItem="rZY-lz-F6q" secondAttribute="top" type="default" id="YBz-Ig-bMt"/>
                             <constraint firstItem="FVP-wZ-R9C" firstAttribute="leading" secondItem="rZY-lz-F6q" secondAttribute="leading" constant="11" id="aJl-To-K5s"/>
                         </constraints>
                     </view>
@@ -291,6 +294,7 @@
     <resources>
         <image name="nepal_feature_image.jpg" width="640" height="460"/>
         <image name="region_grid.png" width="320" height="230"/>
+        <image name="support_getinvolved.png" width="320" height="400"/>
     </resources>
     <classes>
         <class className="NSLayoutConstraint" superclassName="NSObject">
